@@ -8,7 +8,7 @@ Herramienta de denegacionde servicio (DDoS) para [Termux](https://play.google.co
 # Instalación
 * git clone https://github.com/World313Code/DDoS-Attack-Termux
 * cd DDoS-Attack-Termux
-* chmod +x DDoS-Attack-Termux.py
+* chmod +x ddos-attack.py
 * python3 ddos_attack.py
 # Aclaración
 No me hago responsable del uso que le den a la herramienta, esta herramienta fue creada con el proposito de medir la resistencia de paginas web personales,  por lo que debe de usarse con el concentimiento del objetivo.
