@@ -14,5 +14,5 @@ Herramienta de denegacionde servicio (DDoS) para [Termux](https://play.google.co
 No me hago responsable del uso que le den a la herramienta, esta herramienta fue creada con el proposito de medir la resistencia de paginas web personales,  por lo que debe de usarse con el concentimiento del objetivo.
 # Actualización
 * Se hizo mas legible el codigo.
-* Se arreglo el error Type Error:<br>
+* Se arreglo el error "Type Error:"<br>
 **Al no haber caracteres validos la herramienta se cerraba**
