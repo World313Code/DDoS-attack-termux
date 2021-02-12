@@ -13,5 +13,5 @@ Herramienta de denegacionde servicio (DDoS) para [Termux](https://play.google.co
 # Aclaración
 No me hago responsable del uso que le den a la herramienta, esta herramienta fue creada con el proposito de medir la resistencia de paginas web personales,  por lo que debe de usarse con el concentimiento del objetivo.
 # Actualización
-* Se agrego una advertencia al elegir el ataque DDoS
+* Se agrego una advertencia al elegir el ataque DDoS<br>
 ```Te advierte que cambie su IP para que no obtengan tu ubicación```
